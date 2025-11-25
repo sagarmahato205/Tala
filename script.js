@@ -10,3 +10,46 @@ Menu.addEventListener("click",function(){
 menu_close.addEventListener('click',function(){
      menu_screen.style.top="-100%";
 })
+
+
+
+
+gsap.from("#page1 h1",{
+    y:90,
+    duration:0.7,
+    opacity:0
+})
+gsap.from("#page1 h2",{
+    y:85,
+    duration:1,
+    opacity:0,
+    delay:0.4
+})
+gsap.from("#page1 h3",{
+    y:75,
+    duration:1,
+    opacity:0,
+    delay:0.6
+})
+gsap.to("#page2-img",{
+    scale:1,
+    scrollTrigger:{
+        trigger:"#page2-img img",
+        Scroller:"body",
+        start:"top 90%",
+        end:"top 0%" ,
+        scrub:3
+    }
+})
+gsap.from("#page2 h1",{
+    rotateX:"-90deg",
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#page2 #h11",
+        Scroller:"body",
+        markers:true,
+        start:"top 70%",
+        end:"top 60%",
+        scrub:true
+    }
+})
