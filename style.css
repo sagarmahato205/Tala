@@ -130,8 +130,82 @@ body{
     position: absolute;
     top: 70%;
     left:25%;
+    transform-origin: 100% 100%;
 }
 #page2 h1 span{
     font-style: italic;
 
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: aqua;
+}
+#page4{
+    min-height: 95vh;
+    min-width: 100vw;
+    color: #fff;
+}
+#page4 h1{
+    font-size: 130px;
+    padding: 20px 40px;
+}
+#page5{
+    height: 130vh;
+    width: 100vw;
+}
+#page5-elems{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+#page5-elems h1{
+    font-size: 73px;
+    width: 70%;
+    height: 100%;
+    padding: 10px 10px;
+    border: 1px solid #d1d1d1;
+}
+#page5-elems h2{
+    font-size: 35px;
+    width: 30%;
+    height: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+
+}
+#page5-content{
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(https://media.istockphoto.com/id/1411987919/photo/abstract-particular-background.jpg?s=612x612&w=0&k=20&c=LP80msC_2BOz5nqhiPd0o_2WXoFp88TosHHf2e9AaOQ=);
+}
+#page5-content h1{
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px ;
+}
+#page5-content h1 span{
+    font-style: italic;
+
+}
+#page5-content h5{
+     width: 30%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#page5-content i{
+    font-size: 50px;
+    margin-top: 30px;
 }
