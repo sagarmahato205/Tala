@@ -52,3 +52,31 @@ gsap.from("#page2 h1",{
         scrub:2
     }
 })
+
+
+let slide1=document.querySelectorAll("#page6 .sliders1 h1");
+slide1.forEach(function(elem){
+    gsap.to(elem,{
+        transform:"translateX(-100%)",
+        duration:4,
+        scrollTrigger:{
+            trigger:"#page6",
+            scroller:"body",
+            scrub:3
+        }
+    })
+})
+
+
+let slide2=document.querySelectorAll("#page6 .sliders2 h1");
+slide2.forEach(function(elem){
+    gsap.to(elem,{
+        transform:"translateX(0%)",
+        duration:4,
+        scrollTrigger:{
+            trigger:"#page6",
+            scroller:"body",
+            scrub:5 
+        }
+    })
+})

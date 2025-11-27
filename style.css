@@ -209,3 +209,75 @@ body{
     font-size: 50px;
     margin-top: 30px;
 }
+#page6{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+
+}
+#page6 .sliders1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+#page6 .sliders1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .sliders2 h1{
+    transform: translateX(-100%);
+}
+#page6 .sliders2{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+#page6 .sliders2::-webkit-scrollbar{
+    display: none;
+}
+#page6 h1{
+    font-size: 210px;
+    text-transform: uppercase;
+    line-height: 23.5vh;
+}
+#page6 h1 .one2{
+    color: transparent;
+    -webkit-text-stroke: 1px #adadad;
+}
+#page7{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+#page7 h3{
+    font-size: 6vh;
+    margin-top: 80px;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 40%;
+}
+#page7 #page7-elems{
+    height: 40vh;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page7 #page7-elems #element1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page7 #page7-elems #element2{
+    height: 100%;
+    width: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
