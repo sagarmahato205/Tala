@@ -80,3 +80,26 @@ slide2.forEach(function(elem){
         }
     })
 })
+
+//Image follow cursor
+document.querySelector("#element1").addEventListener("mousemove",function(dets){
+    document.querySelector("#element1 img").style.opacity="1";
+    document.querySelector("#element1 img").style.left=`${dets.x-230}px`;
+    document.querySelector("#element1 img").style.bottom=`${dets.y-50}px`;
+})
+//image hide on move leave
+document.querySelector("#element1").addEventListener("mouseleave",function(){
+    document.querySelector("#element1 img").style.opacity="0";
+})
+
+
+//Image2 follow cursor
+document.querySelector("#element2").addEventListener("mousemove",function(dets){
+    document.querySelector("#element2 img").style.opacity="1";
+    document.querySelector("#element2 img").style.left=`${dets.x-230}px`;
+    document.querySelector("#element2 img").style.bottom=`${dets.y-50}px`;
+})
+//image2 hide on move leave
+document.querySelector("#element2").addEventListener("mouseleave",function(){
+    document.querySelector("#element2 img").style.opacity="0";
+})
